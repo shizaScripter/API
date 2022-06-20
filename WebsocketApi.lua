@@ -1,7 +1,7 @@
 local module = {}
 
 module.Player()
-   print("test")
+   return game:GetService("Player").LocalPlayer
 end)
 
 return module 
