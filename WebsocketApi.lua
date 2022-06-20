@@ -1,6 +1,6 @@
 local module = {}
 
-module.Player()
+function module.Player()
    return game:GetService("Player").LocalPlayer
 end)
 
